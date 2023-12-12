@@ -61,7 +61,7 @@ metadata:
   namespace: mysql
 data:
   MYSQL_PASSWORD: YXlhZGlub3UxNjAx
-  MYSQL_ROOT_PASSWORD: YXlhZGluOjE2MDE=
+  MYSQL_ROOT_PASSWORD: YXlhZGlub3UxNjAx
 ---
 apiVersion: v1
 kind: ConfigMap
@@ -69,5 +69,5 @@ metadata:
   name: mysql-config
   namespace: mysql
 data:
-  MYSQL_USER: YXlhZGlub3U=
-  MYSQL_DATABASE: cGV0X3N0b3Jl
+  MYSQL_USER: ayadinou
+  MYSQL_DATABASE: pet_store
